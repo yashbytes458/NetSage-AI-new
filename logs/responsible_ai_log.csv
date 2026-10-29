@@ -1,0 +1,6 @@
+case_id,decision,ai_root_cause,human_corrected_root_cause,reason_for_correction,timestamp
+CASE-VLAN-01,Edited,VLAN 20 misconfigured on Fa0/5,Switchport Fa0/5 explicitly assigned to Guest VLAN 20 instead of Sales VLAN 10; requires switchport access vlan 10 and verification with show vlan brief.,Enhanced root cause explanation with full VLAN names and verification command.,2026-08-23 03:51:11
+CASE-VLAN-01,Edited,Switch port Fa0/5 on SW1 is assigned to the incorrect access VLAN (VLAN 20 instead of VLAN 10) at Layer 2.,Switchport Fa0/5 assigned to Guest VLAN 20 instead of Sales VLAN 10.,Explicitly clarified Sales vs Guest VLAN names.,2026-08-23 03:53:23
+CASE-VLAN-01,Rejected,Switch port Fa0/5 connected to PC1 is assigned to VLAN 20 instead of VLAN 10 at Layer 2.,,,2026-08-23 10:43:39
+CASE-VLAN-01,Edited,Port Fa0/5 on SW1 is misconfigured in VLAN 20 instead of VLAN 10 at Layer 2.,Port Fa0/5 on SW1 is misconfigured in VLAN 20 instead of VLAN 10 at Layer 2.,,2026-08-23 10:44:14
+CASE-VLAN-01,Edited,Switch port Fa0/5 connected to PC1 is assigned to the wrong access VLAN (VLAN 20 instead of VLAN 10) at Layer 2.,Port Fa0/5 on SW1 is misconfigured in VLAN 20 instead of VLAN 10 at Layer 2.,,2026-08-23 10:45:01
